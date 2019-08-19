@@ -655,7 +655,7 @@
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   height: 100%;
-  padding: .4rem .4rem .4rem 4rem;
+  padding: .4rem 0 .4rem 0;
 }
 
 .off-canvas .off-canvas-overlay {
