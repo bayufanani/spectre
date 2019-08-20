@@ -19,9 +19,9 @@
       text-decoration: none;
       border-top-left-radius: $border-radius;
       border-top-right-radius: $border-radius;
-      border-top: 1px solid $gray-color;
+      /* border-top: 1px solid $gray-color;
       border-left: 1px solid $gray-color;
-      border-right: 1px solid $gray-color;
+      border-right: 1px solid $gray-color; */
 
       &:focus,
       &:hover {
@@ -31,9 +31,9 @@
 
     &.active a,
     a.active {
-      border-top: 1px solid $primary-color;
+      /* border-top: 1px solid $primary-color;
       border-left: 1px solid $primary-color;
-      border-right: 1px solid $primary-color;
+      border-right: 1px solid $primary-color; */
       border-bottom-color: $primary-color;
       color: $link-color;
     }

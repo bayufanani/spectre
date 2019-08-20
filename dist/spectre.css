@@ -2870,11 +2870,8 @@ summary.accordion-header::-webkit-details-marker {
 
 .tab .tab-item a {
   border-bottom: .1rem solid transparent;
-  border-left: 1px solid #bcc3ce;
-  border-right: 1px solid #bcc3ce; 
-  border-top: 1px solid #bcc3ce;
   border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-right-radius: 3px; /* border-top: 1px solid $gray-color; border-left: 1px solid $gray-color; border-right: 1px solid $gray-color; */ 
   color: inherit;
   display: block;
   margin: 0 .4rem 0 0;
@@ -2889,10 +2886,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .tab .tab-item.active a,
 .tab .tab-item a.active {
-  border-bottom-color: #2196f3;
-  border-left: 1px solid #2196f3;
-  border-right: 1px solid #2196f3;
-  border-top: 1px solid #2196f3;
+  /* border-top: 1px solid $primary-color; border-left: 1px solid $primary-color; border-right: 1px solid $primary-color; */ border-bottom-color: #2196f3;
   color: #2196f3;
 }
 
